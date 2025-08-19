@@ -28,7 +28,7 @@ const addCard = (item, container) => container.insertAdjacentHTML("beforeend", `
   <div class="col-md-4 mb-3">
     <div class="card h-100 shadow-sm">
       <img src="${item.imagemUrl || "https://via.placeholder.com/300x200.png?text=Fruta"}"
-           class="card-img-top" alt="${item.especie}">
+           class="card-img-top cardImg" alt="${item.especie}">
       <div class="card-body">
         <p class="text-muted small mb-1"><strong>ID:</strong> ${item.id}</p>
         <h5 class="card-title">${item.especie}</h5>
