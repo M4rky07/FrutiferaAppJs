@@ -1,0 +1,9 @@
+.carousel-item img {
+  max-height: 500px; 
+  width: auto;       
+  margin: 0 auto;
+  display: block;
+}
+.navbar {
+  background-color: #28a745;
+}
